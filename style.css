@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+html {
+  font-size: 65.5%;
+  overflow-x: hidden;
+  line-height: 1;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.navigation {
+  background-color: hsl(0, 0%, 98%);
+  position: relative;
+}
+.nav-showcase {
+  margin: 0px auto;
+  max-width: 135rem;
+  padding: 4.6rem 0 9.6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.main-nav {
+  display: flex;
+}
+.first-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.nav-open ul {
+  display: flex;
+  gap: 5rem;
+}
+.nav-open li,
+.second-div li {
+  list-style-type: none;
+}
+
+.nav-links:link,
+.nav-links:active {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.7rem;
+}
+.nav-links:hover,
+.nav-links:visited {
+  color: hsl(0, 0%, 8%);
+}
+
+.second-div {
+  display: flex;
+  gap: 3rem;
+  transform: translateX(10rem);
+}
+
+.register-btn {
+  width: 13rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  border-radius: 1.5rem;
+  background-color: hsl(0, 0%, 98%);
+  border: 1px solid hsl(0, 0%, 8%);
+}
+.register-btn:hover {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  border: 1px solid hsl(0, 0%, 98%);
+  cursor: pointer;
+}
+.menu-icon {
+  /* display: flex; */
+  gap: 2rem;
+  margin-left: 15rem;
+}
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  color: #333;
+  display: none;
+}
+.close-outline {
+  display: none;
+}
+
+/* Hero section */
+.btn-mobile-nav {
+  width: 6rem;
+  height: 6rem;
+}
+
+.hero-section {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.hero-contents {
+  max-width: 120rem;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8.6rem;
+  padding: 4.6rem 0 9.6rem;
+}
+
+h1 {
+  font-size: 9.3rem;
+}
+.small-text {
+  font-size: 2.4rem;
+  margin-top: 5.6rem;
+
+  line-height: 1.3;
+  /* line-height: 3; */
+}
+.hero-btn {
+  padding: 1.8rem 3.8rem;
+  margin-top: 6.8rem;
+  border-radius: 1.8rem;
+  font-size: 2rem;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  transition: all 0.7s ease-in;
+  cursor: pointer;
+}
+
+.hero-btn:active,
+.hero-btn:hover {
+  background-color: hsl(0, 0%, 98%);
+  border: 1px solid hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+}
+.hero-img img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/* Hero-section */
+.hero-icons {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  gap: 2rem;
+  margin-top: 9.8rem;
+}

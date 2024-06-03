@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100;1,100&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@200;300&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <header class="navigation nav-header">
+      <div class="nav-showcase">
+        <div class="first-content">
+          <div>
+            <img src="images/logo.svg" alt="logo" class="nav-logo" />
+          </div>
+          <div class="nav-bar">
+            <div class="main-nav">
+              <div class="nav-open">
+                <!-- <nav> -->
+                <ul>
+                  <li>
+                    <a href="#" class="nav-links">Features</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-links">Company</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-links">Career</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-links">About</a>
+                  </li>
+                </ul>
+                <!-- </nav> -->
+              </div>
+
+              <div class="second-div">
+                <li><a href="#" class="nav-links btn-login">Login</a></li>
+                <button class="register-btn">Register</button>
+              </div>
+            </div>
+
+            <div class="menu-icon">
+              <button class="btn-mobile-nav">
+                <svg
+                  width="32"
+                  height="18"
+                  class="open-outline"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g fill="#151515" fill-rule="evenodd">
+                    <path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z" />
+                  </g>
+                </svg>
+                <svg
+                  width="26"
+                  height="26"
+                  class="close-outline"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g fill="#151515" fill-rule="evenodd">
+                    <path d="m2.393.98 22.628 22.628-1.414 1.414L.979 2.395z" />
+                    <path
+                      d="M.98 23.607 23.609.979l1.414 1.414L2.395 25.021z"
+                    />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="menu">
+        <div class="mobile-menu">
+          <div>
+            <img src="images/logo.svg" alt="logo"  class="nav-logo"/>
+          </div>
+          
+            <div class="big-menu">
+            <nav class="nav-menu hidden">
+            <div>
+              <ul>
+              <li class="nav-links">
+                  <a href="#" id="dropdown-menu" class="dropdown-menubar">Features<img
+                    src="images/icon-arrow-up.svg"/></a>
+                  
+                  <div class="nav-close">
+                    <option class="option-link">
+                     Todo List
+
+                    </option>
+                    <option class="option-link"><img src="images/icon-calendar.svg"/>Calendar</option>
+                    <option class="option-link"><img src="images/icon-reminders.svg"/>Reminders</option>
+                    <option class="option-link"><img src="images/icon-planning.svg"/>Planning</option>
+                  </div>
+                </a>
+              </li>
+            </div>
+            
+            
+
+            <div>
+               <button class="btn-mobile-nav">
+            <svg width="32" class="open-nav hidden" name="menu-open " height="18" xmlns="http://www.w3.org/2000/svg"><g fill="#151515" fill-rule="evenodd"><path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z"/></g></svg>
+            <svg width="26" class="close-nav hidden"  name="menu-close " height="26" xmlns="http://www.w3.org/2000/svg"><g fill="#151515" fill-rule="evenodd"><path d="m2.393.98 22.628 22.628-1.414 1.414L.979 2.395z"/><path d="M.98 23.607 23.609.979l1.414 1.414L2.395 25.021z"/></g></svg>
+          </button>
+              <li class="nav-links">
+                <a href="#" id="dropdown-menu" class="dropdown-menubar">Company<img
+                    src="images/icon-arrow-up.svg"/></a>
+                  <div class="nav-close">
+                    <option class="option-link">History</option>
+                    <option class="option-link">Our Team</option>
+                    <option class="option-link">Blog</option>
+                  </div>
+                </a>
+              </li>
+            </div>
+
+            <div>
+              <li class="nav-links">
+                <a href="#" id="dropdown-menu">Careers</a>
+              </li>
+            </div>
+
+            <div>
+              <li class="nav-links">
+                <a href="#" id="dropdown-menu">About </a>
+              </li>
+            </div>
+            </ul>
+             
+          </nav>
+          
+           </div>
+           </div>
+            
+          <div class="nav-btn hidden">
+            <a href="#" class="login-btn " >Login</a>
+            <button class="register-btn">Register Now</button>
+          </div>
+         
+         
+        </div> -->
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="small--margin">
+          <div class="hero-contents">
+            <div class="hero-showcase">
+              <h1>Make remote work</h1>
+              <p class="small-text">
+                Get your team in sync, no matter your location. Streamline
+                processes, create team rituals, and watch productivity soar.
+              </p>
+              <button class="hero-btn">Learn more</button>
+
+              <div class="hero-icons">
+                <img src="images/client-databiz.svg" alt="databiz-icon" />
+                <img
+                  src="images/client-audiophile.svg"
+                  alt="client-audiophile-icon"
+                />
+                <img src="images/client-meet.svg" alt="client-meet-icon" />
+                <img src="images/client-maker.svg" alt="client-maker-icon" />
+              </div>
+            </div>
+
+            <div class="hero-img">
+              <img
+                src="images/image-hero-desktop.png"
+                alt="A picture of a Boy pressing laptop"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Features Company Careers About Login Register  -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>

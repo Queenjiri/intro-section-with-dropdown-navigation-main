@@ -1,0 +1,136 @@
+@media (max-width: 49em) {
+  .main-nav {
+    background-color: #fafefe;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0rem 9.6rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    /* Hide Navigation */
+    /* display: none; */
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 1s ease-in;
+  }
+
+  .nav-header .main-nav {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .btn-mobile-nav {
+    position: absolute;
+    right: 0;
+  }
+  .nav-links {
+    font-size: 9.6rem;
+  }
+
+  .nav-open ul {
+    display: block;
+  }
+  .nav-open li {
+    margin: 8.2rem;
+  }
+  .nav-header .close-outline {
+    display: block;
+  }
+  .nav-header .open-outline {
+    display: none;
+  }
+  .menu-icon {
+    margin-left: 5rem;
+  }
+  .btn-mobile-nav {
+    display: block;
+    margin-bottom: 20rem;
+  }
+
+  .second-div {
+    display: block;
+    margin: 1rem;
+    transform: translateX(0rem);
+  }
+  .register-btn {
+    margin: 2.4rem;
+    width: 20rem;
+    height: 7rem;
+    font-size: 2.8rem;
+    border: 1px solid hsl(0, 0%, 8%);
+  }
+  .register-btn:hover {
+    transition: all 2.5s ease-in-out;
+  }
+
+  .nav-links:link,
+  .nav-links:active {
+    font-size: 2.8rem;
+    padding: 4.6rem 0 9.6rem;
+    color: #fff;
+  }
+
+  .hero-contents {
+    max-width: 110rem;
+
+    grid-template-columns: 1fr;
+    grid-column: -1;
+  }
+  .hero-img {
+    grid-column: 1/-1;
+    grid-row: 1/-2;
+    width: 100%;
+    background-size: contain;
+  }
+  .small-text {
+    font-size: 3.7rem;
+  }
+  .hero-btn {
+    margin-top: 4rem;
+    /* transform: translateX(20rem); */
+
+    /* width: 100%;
+    display: flex; */
+    gap: 3rem;
+  }
+}
+@media (max-width: 78em) {
+  .hero-contents {
+    max-width: 100rem;
+  }
+  h1 {
+    font-size: 7.6rem;
+  }
+  .nav-showcase {
+    max-width: 100rem;
+  }
+}
+
+@media (max-width: 65em) {
+  .hero-contents {
+    max-width: 95rem;
+  }
+  h1 {
+    font-size: 7.2rem;
+  }
+  .nav-showcase {
+    max-width: 95rem;
+  }
+}
+
+@media (max-width: 65em) {
+  .hero-contents {
+    max-width: 88rem;
+  }
+  h1 {
+    font-size: 6.5rem;
+  }
+  .nav-showcase {
+    max-width: 90rem;
+  }
+}
