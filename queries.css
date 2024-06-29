@@ -99,6 +99,7 @@
     gap: 3rem;
   }
 }
+
 @media (max-width: 78em) {
   .hero-contents {
     max-width: 100rem;
